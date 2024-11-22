@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Weather from './components/Weather';
+import Calendar from './components/Calendar';
+import Agenda from './components/Agenda';
+import News from './components/News';
+import Spotify from './components/Spotify';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="min-h-screen bg-gray-900 p-6">
+            <div className="grid grid-cols-12 gap-6 max-w-[1920px] mx-auto">
+                <Header />
+                <Weather />
+                <Calendar />
+                <Agenda />
+                <News />
+                <Spotify />
+            </div>
+        </div>
+    );
 }
 
 export default App;
+
