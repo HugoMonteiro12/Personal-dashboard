@@ -28,8 +28,8 @@ const Header: React.FC = () => {
                 </div>
             </div>
             <div className="text-right">
-                <p className="text-2xl text-gray-300">Welcome, User</p>
-                <p className="text-xl text-gray-400">Here's your daily overview</p>
+                <p className="text-4xl text-gray-300">Welcome, Hugo</p>
+                <p className="text-2xl text-gray-400">Here's your daily overview</p>
             </div>
         </div>
     )

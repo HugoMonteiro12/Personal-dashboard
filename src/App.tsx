@@ -10,7 +10,7 @@ import Spotify from './components/Spotify';
 function App() {
     return (
         <div className="min-h-screen bg-gray-900 p-6">
-            <div className="grid grid-cols-12 gap-6 max-w-[1920px] mx-auto">
+            <div className="grid grid-cols-12 gap-6 max-w-[1920px] h-[1080px] mx-auto">
                 <Header />
                 <Weather />
                 <Calendar />

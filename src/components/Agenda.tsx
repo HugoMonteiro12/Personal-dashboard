@@ -6,7 +6,6 @@ const Agenda: React.FC = () => {
         { date: 'May 15', events: ['Meeting with Team', 'Lunch with Client'] },
         { date: 'May 16', events: ['Project Deadline', 'Gym Session'] },
         { date: 'May 17', events: ['Conference Call', 'Dinner with Family'] },
-        { date: 'May 18', events: ['Dentist Appointment', 'Movie Night'] },
     ]
 
     return (
