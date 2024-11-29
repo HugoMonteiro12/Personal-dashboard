@@ -3,9 +3,9 @@ import './App.css';
 import Header from './components/Header';
 import Weather from './components/Weather';
 import Calendar from './components/Calendar';
-import Agenda from './components/Agenda';
 import News from './components/News';
 import Spotify from './components/Spotify';
+import Photo from "./components/Photo";
 
 function App() {
     return (
@@ -13,10 +13,10 @@ function App() {
             <div className="grid grid-cols-12 gap-6 max-w-[1920px] h-[1080px] mx-auto">
                 <Header />
                 <Weather />
-                <Calendar />
-                <Agenda />
-                <News />
                 <Spotify />
+                <News />
+                <Calendar />
+                <Photo />
             </div>
         </div>
     );
