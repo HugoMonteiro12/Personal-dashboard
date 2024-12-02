@@ -1,13 +1,9 @@
 import React from 'react'
 import { CalendarIcon, List } from 'lucide-react'
 
-interface Event {
-    date: string;
-    events: string[];
-}
+interface Event { date: string; events: string[]; }
 
-const Calendar: React.FC = () => {
-    const currentDate = new Date()
+const Calendar: React.FC = () => { const currentDate = new Date()
     const currentMonth = currentDate.getMonth()
     const currentYear = currentDate.getFullYear()
 
@@ -86,4 +82,3 @@ const Calendar: React.FC = () => {
 }
 
 export default Calendar
-
